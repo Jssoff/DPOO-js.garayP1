@@ -12,7 +12,7 @@ public class TmbMujer extends Tmb {
 	}
 	
 	public double calcularTmb() {
-		return (cte + (ctePeso*peso) + (cteAltura*altura) - (cteAnios * edad));
+		return (cte + (ctePeso*this.peso) + (cteAltura*this.altura) - (cteAnios * this.edad));
 	}
 
 }
